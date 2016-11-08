@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE = edge">
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+        <title>Calculator</title>
+
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Calculator</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Basic calculator</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container theme-showcase text-center" role="main">
+            <div class="jumbotron">
+                <h1>Basic calculator</h1>
+                <p>This is an example of basic calculator with basic operations like add, subtract, divide and multiply, without order prioritization</p>
+            </div>
+            <br/>
+            <div class="btn-group" role="group">
+                <input type="text" class="form-control">
+            </div>
+            <br/>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">&nbsp;</button>
+                <button type="button" class="btn btn-default">C</button>
+                <button type="button" class="btn btn-default">DEL</button>
+                <button type="button" class="btn btn-default">/</button>
+            </div>
+            <br/>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">7</button>
+                <button type="button" class="btn btn-default">8</button>
+                <button type="button" class="btn btn-default">9</button>
+                <button type="button" class="btn btn-default">*</button>
+            </div>
+            <br/>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">4</button>
+                <button type="button" class="btn btn-default">5</button>
+                <button type="button" class="btn btn-default">6</button>
+                <button type="button" class="btn btn-default">-</button>
+            </div>
+            <br/>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">1</button>
+                <button type="button" class="btn btn-default">2</button>
+                <button type="button" class="btn btn-default">3</button>
+                <button type="button" class="btn btn-default">+</button>
+            </div>
+            <br/>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">&nbsp;</button>
+                <button type="button" class="btn btn-default">0</button>
+                <button type="button" class="btn btn-default">&nbsp;</button>
+                <button type="button" class="btn btn-default">=</button>
+            </div>
+            <br/>
+        </div>
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+    </body>
+</html>
